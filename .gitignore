@@ -47,3 +47,8 @@ coverage
 *.swp
 *.swo
 
+# Backup folders
+.unused_images_backup/
+.app_backup/
+.github_pages_backup/
+
