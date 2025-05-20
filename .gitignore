@@ -46,3 +46,9 @@ coverage
 .vscode/
 *.swp
 *.swo
+
+# Documentation and guides
+DETAILED_GUIDE.md
+SETUP_CHECKLIST.md
+SETUP_SUMMARY.md
+UPDATED_SETUP_INSTRUCTIONS.md

@@ -43,3 +43,8 @@
 	<li>All libraries CSS styles placed in <strong>app/sass/_libs.sass | app/scss/_libs.scss</strong>;</li>
 	<li>Rename <strong>ht.access</strong> to <strong>.htaccess</strong> before place it in your web server. This file contain rules for files caching on web server.</li>
 </ol>
+
+
+## Note
+
+This repository is structured for GitHub Pages. The development files are in the `app/` directory, but for deployment, the files are copied to the repository root.
