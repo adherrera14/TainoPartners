@@ -1,0 +1,6 @@
+name: TainoPartners
+title: TainoPartners Landing Page
+description: TainoPartners Landing Page built with Cryptoland template
+baseurl: ""
+url: ""
+exclude: ["prepare_for_github_pages.sh", "gulpfile.js", "package.json", "package-lock.json"]
