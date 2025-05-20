@@ -149,7 +149,7 @@ sup {
 }
 
 a {
-  color: #557ef8;
+  color: #ff8e26;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -2897,7 +2897,7 @@ body input:required:valid, body textarea:required:valid {
           transform: translateY(-50%);
   width: 40px;
   left: 0;
-  border-bottom: 1px solid #557ef8;
+  border-bottom: 1px solid #ff8e26;
 }
 
 .section-header--white h2 {
@@ -2961,7 +2961,7 @@ h3 {
 h4 {
   font-size: 12px;
   letter-spacing: 1.2px;
-  color: #557ef8;
+  color: #ff8e26;
   text-transform: uppercase;
   font-family: "Catamaran";
   font-weight: 700;
@@ -3107,7 +3107,7 @@ section {
 .btn--blue {
   -webkit-box-shadow: 0 3px 32px rgba(85, 126, 248, 0.54);
           box-shadow: 0 3px 32px rgba(85, 126, 248, 0.54);
-  background-color: #557ef8;
+  background-color: #ff8e26;
 }
 
 .btn--blue:hover {
@@ -3302,7 +3302,7 @@ section {
 }
 
 .header.sticky .logo__img {
-  background-image: url(../img/Logog_blue.svg);
+  background-image: url(../img/taino.svg);
 }
 
 .header.sticky .menu__link {
@@ -3310,7 +3310,7 @@ section {
 }
 
 .header.sticky .menu__link:after {
-  border-bottom: 2px solid #557ef8;
+  border-bottom: 2px solid #ff8e26;
 }
 
 .header.sticky .select-styled {
@@ -3322,7 +3322,7 @@ section {
 }
 
 .header.sticky .btn-sign-up:hover {
-  color: #557ef8;
+  color: #ff8e26;
 }
 
 .header.sticky .btn-menu div {
@@ -3352,7 +3352,7 @@ section {
 .logo__img {
   width: 45px;
   height: 51px;
-  background-image: url(../img/Logog_blue.svg);
+  background-image: url(../img/taino.svg);
   -webkit-background-size: contain;
           background-size: contain;
   background-position: center;
@@ -3802,7 +3802,7 @@ section {
   height: 50px;
   -webkit-border-radius: 5px;
           border-radius: 5px;
-  background-color: #557ef8;
+  background-color: #ff8e26;
   line-height: 50px;
   color: #ffffff;
   font-size: 16px;
@@ -4323,7 +4323,7 @@ section {
   left: 12.5px;
   width: 1px;
   height: 100%;
-  border-left: 2px dashed #557ef8;
+  border-left: 2px dashed #ff8e26;
 }
 
 .roadmap__item-title {
@@ -4346,7 +4346,7 @@ section {
   left: 0;
   width: 25px;
   height: 25px;
-  border: 2px solid #557ef8;
+  border: 2px solid #ff8e26;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   z-index: 1;
@@ -4379,11 +4379,11 @@ section {
 }
 
 .roadmap__item--past .roadmap__item-marker {
-  background-color: #557ef8;
+  background-color: #ff8e26;
 }
 
 .roadmap__item--past:after {
-  border-left: 2px solid #557ef8;
+  border-left: 2px solid #ff8e26;
 }
 
 @media (min-width: 768px) {
@@ -4411,7 +4411,7 @@ section {
   .roadmap__item:after {
     width: 100%;
     border: none;
-    border-top: 1px dashed #557ef8;
+    border-top: 1px dashed #ff8e26;
     top: 65px;
     border: auto;
     right: -50%;
@@ -4444,7 +4444,7 @@ section {
     background-color: rgba(182, 183, 183, 0.5);
   }
   .roadmap__item--past:after {
-    border-top: 1px solid #557ef8;
+    border-top: 1px solid #ff8e26;
   }
 }
 
@@ -4655,7 +4655,7 @@ section {
         -ms-transform: translateX(100%);
             transform: translateX(100%);
     width: 100%;
-    border-top: 1px dashed #557ef8;
+    border-top: 1px dashed #ff8e26;
   }
   .process__step:before {
     content: '';
@@ -4796,8 +4796,8 @@ section {
 }
 
 .doc:hover {
-  -webkit-box-shadow: 0 0 30px #557ef8;
-          box-shadow: 0 0 30px #557ef8;
+  -webkit-box-shadow: 0 0 30px #ff8e26;
+          box-shadow: 0 0 30px #ff8e26;
 }
 
 .doc:hover .doc__bg {
@@ -5193,7 +5193,7 @@ section {
 }
 
 .news-carousel__item:hover .news-carousel__item-title {
-  color: #557ef8;
+  color: #ff8e26;
 }
 
 .news-carousel__item-body {
@@ -5207,7 +5207,7 @@ section {
 
 .news-carousel__item-subtitle {
   font-size: 16px;
-  color: #557ef8;
+  color: #ff8e26;
   font-family: "Catamaran";
   font-weight: 700;
   margin-bottom: 24px;
@@ -5270,7 +5270,7 @@ section {
 .news-carousel .owl-dot.active {
   width: 12px;
   height: 12px;
-  background-color: #557ef8 !important;
+  background-color: #ff8e26 !important;
 }
 
 @media (min-width: 768px) {
@@ -5619,7 +5619,7 @@ label.error {
 
 .faq__bg {
   position: absolute;
-  bottom: 0;
+  bottom: -250px;
   right: 0;
   display: none;
 }
@@ -5686,11 +5686,11 @@ label.error {
 }
 
 .accordion a:hover {
-  color: #557ef8 !important;
+  color: #ff8e26 !important;
 }
 
 .accordion a.active {
-  color: #557ef8 !important;
+  color: #ff8e26 !important;
   padding-bottom: 20px;
 }
 
