@@ -47,13 +47,3 @@ coverage
 *.swp
 *.swo
 
-# Documentation and guides
-DETAILED_GUIDE.md
-SETUP_CHECKLIST.md
-SETUP_SUMMARY.md
-UPDATED_SETUP_INSTRUCTIONS.md
-
-# Duplicated folders and backups
-app/
-.app_backup/
-.github_pages_backup/
