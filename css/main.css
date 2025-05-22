@@ -2987,11 +2987,13 @@ section {
 
 .social-block {
   margin-bottom: 40px;
+  text-align: left;
 }
 
 .social-block__title {
   color: #ffffff;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .social-list {
@@ -3003,6 +3005,10 @@ section {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+      -ms-flex-pack: left;
+          justify-content: left;
 }
 
 .social-list__item {
@@ -3017,19 +3023,27 @@ section {
   width: 40px;
   height: 40px;
   position: relative;
-  -webkit-transition: border 0.4s;
-  -o-transition: border 0.4s;
-  transition: border 0.4s;
+  -webkit-transition: border 0.4s, opacity 0.4s;
+  -o-transition: border 0.4s, opacity 0.4s;
+  transition: border 0.4s, opacity 0.4s;
   display: block;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   border: 1px solid #ffffff;
-  -webkit-transition: opacity 0.4s;
-  -o-transition: opacity 0.4s;
-  transition: opacity 0.4s;
+  color: #ffffff;
 }
 
 .social-list__link .fontello-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.social-list__link svg {
+  color: #ffffff; /* Make SVG icons white */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -3378,7 +3392,7 @@ section {
 }
 
 .logo--color .logo__img {
-  background-image: url(../img/Logog_blue.svg);
+  background-image: url(../img/taino.svg);
 }
 
 .logo--color .logo__title {
@@ -4113,7 +4127,7 @@ section {
           box-shadow: 0 0 50px rgba(85, 126, 248, 0.2);
   width: 80px;
   height: 80px;
-  background-color: #fff;
+  background-color: #ff8e26;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   display: -webkit-box;
@@ -4605,7 +4619,7 @@ section {
 .process__step-icon {
   width: 100px;
   height: 100px;
-  background: #ffffff;
+  background: #ff8e26;
   -webkit-border-radius: 50%;
           border-radius: 50%;
   -webkit-box-shadow: 0 0 50px rgba(85, 126, 248, 0.2);
@@ -4667,7 +4681,7 @@ section {
             transform: translateX(100%);
     width: 30px;
     height: 30px;
-    background-image: url(../img/arr-right.svg);
+    background-image: url(../img/star-gold.svg);
     -webkit-background-size: contain;
             background-size: contain;
     background-repeat: no-repeat;
