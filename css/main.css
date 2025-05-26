@@ -3248,9 +3248,6 @@ section {
 }
 
 @media (min-width: 992px) {
-  .section {
-    padding: 150px 0;
-  }
   .section--no-pad-bot {
     padding-bottom: 0;
   }
