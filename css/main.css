@@ -3368,7 +3368,6 @@ section {
           background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  margin-right: 13px;
   -webkit-transition: background-image 0.4s;
   -o-transition: background-image 0.4s;
   transition: background-image 0.4s;
@@ -3379,9 +3378,7 @@ section {
 }
 
 .logo__title {
-  font-size: 27px;
-  color: #333333;
-  font-family: "Gilroy-Light";
+  width: 175px;
 }
 
 .logo:hover {
@@ -3862,9 +3859,6 @@ section {
   }
   .btn-menu {
     display: none;
-  }
-  .logo__title {
-    font-size: 30px;
   }
 }
 
